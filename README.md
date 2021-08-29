@@ -1,5 +1,5 @@
 # Synement
-You forget about assignments anymore.
+You won't forget about assignments anymore.
 
 ## Available Scripts
 
