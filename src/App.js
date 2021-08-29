@@ -33,6 +33,7 @@ const App = () => {
   return (
     <div className="main-app-container">
       <h1 className="page-title">synement</h1>
+      <p className="page-author">Made with ❤️ by Danyl Fernandes</p>
 
       <div className="all-boards-container">
         <Board name="Today" date={today} workData={todayWorkData} />
