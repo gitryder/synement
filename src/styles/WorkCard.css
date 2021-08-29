@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background: #4D569B;
+
+    width: 350px;
+    height: max-content;
+
+    display: grid;
+    grid-template-columns: 0.1fr 2fr;
+
+    border-radius: 5px;
+    overflow: hidden;
+
+    margin-bottom: 8px;
+}
+
+.assignment {
+    background: #59EEE5;
+}
+
+.experiment {
+    background: #59B0EE;
+}
+
+.details {
+    padding: 15px;
+
+    font-family: "Inter";
+    color: white;
+
+    margin-left: 1rem;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 00;
+}
+
+.subtitle {
+    font-size: 14px;
+    font-weight: 500;
+}

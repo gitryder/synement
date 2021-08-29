@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.board {
+    width: 380px;
+    height: max-content;
+
+    background-color: #21285F;
+
+    border-radius: 15px;
+
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.board-date {
+    font-family: 'Space Mono';
+    font-size: 95px;
+
+    color: white;
+    opacity: 0.1;
+
+    margin-top: -35px;
+    float: right;
+}
+
+.board-title {
+    font-family: 'Inter';
+    font-size: 48px;
+    font-weight: 700;
+
+    width: max-content;
+    color: white;
+    
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+
+.board-list {
+    width: 90%;
+    margin: 0 auto;
+
+}
