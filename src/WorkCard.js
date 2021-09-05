@@ -3,7 +3,7 @@ import "./styles/WorkCard.css"
 const WorkCard = ({ data }) => {
     const title = data.subject;
     const subtitle = data.date_due;
-    const type = data.type.toLowerCase();
+    const type = getParsedWorkType(data.type);
 
     return (
         <div className="wrapper">
@@ -14,6 +14,17 @@ const WorkCard = ({ data }) => {
             </div>
         </div>
     );
+}
+
+function getParsedWorkType(type) {
+    switch (type) {
+        case "Assignment":
+            return "assignment";
+        case "Experiment":
+            return "experiment";
+        default:
+            return "other";
+    }
 }
 
 export default WorkCard;
