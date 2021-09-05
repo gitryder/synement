@@ -13,9 +13,9 @@ const App = () => {
   const [afterWorkData, setAfterWorkData] = useState([]);
 
   useEffect(() => {
-    const TODAY_URL = "https://synement.herokuapp.com/all/today";
-    const TOMORROW_URL = "https://synement.herokuapp.com/all/tommorrow";
-    const AFTER_URL = "https://synement.herokuapp.com/all/after";
+    const TODAY_URL = "https://synement.herokuapp.com/te/today";
+    const TOMORROW_URL = "https://synement.herokuapp.com/te/tomorrow";
+    const AFTER_URL = "https://synement.herokuapp.com/te/after";
 
     fetch(TODAY_URL)
       .then((response) => response.json())
