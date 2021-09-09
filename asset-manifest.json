@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/synement/static/css/main.0b2f81ca.chunk.css",
-    "main.js": "/synement/static/js/main.9bf8961c.chunk.js",
-    "main.js.map": "/synement/static/js/main.9bf8961c.chunk.js.map",
+    "main.js": "/synement/static/js/main.f7ce6b1a.chunk.js",
+    "main.js.map": "/synement/static/js/main.f7ce6b1a.chunk.js.map",
     "runtime-main.js": "/synement/static/js/runtime-main.a8911aeb.js",
     "runtime-main.js.map": "/synement/static/js/runtime-main.a8911aeb.js.map",
     "static/js/2.0f9211f3.chunk.js": "/synement/static/js/2.0f9211f3.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.a8911aeb.js",
     "static/js/2.0f9211f3.chunk.js",
     "static/css/main.0b2f81ca.chunk.css",
-    "static/js/main.9bf8961c.chunk.js"
+    "static/js/main.f7ce6b1a.chunk.js"
   ]
 }
