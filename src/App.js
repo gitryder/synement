@@ -1,6 +1,10 @@
 import { useState, useEffect } from "react";
 import Board from "./Board";
+import ReactGA from 'react-ga';
 import "./styles/App.css";
+
+ReactGA.initialize('G-P3SFV0S4LJ');
+ReactGA.pageview('/homepage');
 
 const App = () => {
   const today = new Date().toDateString().slice(3, 11);
