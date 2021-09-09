@@ -1,6 +1,4 @@
 .main-app-container {
-    height: 100vh;
-
     background-image: linear-gradient(to bottom, #060A2C , #6998F2);
 
     display: grid;
