@@ -27,7 +27,7 @@ const App = () => {
 
     fetch(AFTER_URL)
       .then((response) => response.json())
-      .then((data) => setAfterWorkData(data));
+      .then((data) => setAfterWorkData(sortAfterWorkData(data)));
   }, []);
 
   return (
@@ -41,6 +41,15 @@ const App = () => {
         <Board name="Coming up" date="Next" workData={afterWorkData} />
       </div>
     </div>
+  );
+};
+
+const sortAfterWorkData = function (data) {
+  return (
+      data.sort(function(a, b) {
+      let dateA = new Date(a.date_due), dateB = new Date(b.date_due);
+      return dateA - dateB;
+    })
   );
 };
 
