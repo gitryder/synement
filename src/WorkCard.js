@@ -22,6 +22,8 @@ function getParsedWorkType(type) {
             return "assignment";
         case "Experiment":
             return "experiment";
+        case "Quiz":
+            return "quiz";
         default:
             return "other";
     }
