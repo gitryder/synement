@@ -1,4 +1,4 @@
-# Synement
+# [Synement](https://grewscant.github.io/synement/)
 Making tracking my college's assignments a tad bit easier.
 
 ![version](https://img.shields.io/badge/version-0.3.2-blue.svg) ![license](https://img.shields.io/badge/license-MIT-red.svg) ![GitHub issues](https://img.shields.io/github/issues/grewscant/synement) <a href="https://www.tailwind-kit.com/" target="_blank">
