@@ -42,9 +42,26 @@ const App = () => {
           synement
         </a>
       </h1>
-      <p className="page-author">Made with 💖 by Danyl Fernandes</p>
+      <p className="page-author"><strong>Made with 💖 by </strong>
+        <a
+          class="gh-repo"
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/grewscant/"
+        >
+        Danyl Fernandes
+        </a>
+      </p>
       <p className="page-author contributors">
-        ✨ <strong>Contributors:</strong> Gandharv More
+        ✨ <strong>Contributors: </strong> 
+        <a
+          class="gh-repo"
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/ganm0r/"
+        >
+        Gandharv More
+        </a>
       </p>
 
       <div className="all-boards-container">
