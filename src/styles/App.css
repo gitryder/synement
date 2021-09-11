@@ -28,6 +28,11 @@
     color: white;
 }
 
+a, a:visited, a:hover, a:active {
+    color: white;
+    text-decoration: none;
+}
+
 .page-author {
     font-family: 'Space Mono';
     font-size: 20px;

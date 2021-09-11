@@ -32,9 +32,19 @@ const App = () => {
 
   return (
     <div className="main-app-container">
-      <h1 className="page-title">synement</h1>
+      <h1 className="page-title">
+        <a
+          class="gh-repo"
+          target="_blank"
+          href="https://github.com/grewscant/synement"
+        >
+          synement
+        </a>
+      </h1>
       <p className="page-author">Made with 💖 by Danyl Fernandes</p>
-      <p className="page-author contributors">✨ <strong>Contributors:</strong> Gandharv More</p>
+      <p className="page-author contributors">
+        ✨ <strong>Contributors:</strong> Gandharv More
+      </p>
 
       <div className="all-boards-container">
         <Board name="Today" date={today} workData={todayWorkData} />
@@ -46,12 +56,11 @@ const App = () => {
 };
 
 function sortObjectsByDate(data) {
-  return (
-      data.sort((a,b) => {
-      const dateA = new Date(a.date_due), dateB = new Date(b.date_due);
-      return dateA - dateB;
-    })
-  );
-};
+  return data.sort((a, b) => {
+    const dateA = new Date(a.date_due),
+      dateB = new Date(b.date_due);
+    return dateA - dateB;
+  });
+}
 
 export default App;
