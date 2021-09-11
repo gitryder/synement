@@ -1,4 +1,6 @@
-# [Synement](https://grewscant.github.io/synement/)
+# [Synement](https://grewscant.github.io/synement/) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 Making tracking my college's assignments a tad bit easier.
 
 ![version](https://img.shields.io/badge/version-0.3.2-blue.svg) ![license](https://img.shields.io/badge/license-MIT-red.svg) ![GitHub issues](https://img.shields.io/github/issues/grewscant/synement) <a href="https://www.tailwind-kit.com/" target="_blank">
@@ -110,3 +112,21 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
+✨ Contributors
+===============
+
+Apart from the owner, thanks goes to these wonderful people:
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/ganm0r"><img src="https://avatars.githubusercontent.com/u/66680493?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gandharv More</b></sub></a><br /><a href="https://github.com/grewscant/synement/commits?author=ganm0r" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
