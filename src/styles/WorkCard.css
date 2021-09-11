@@ -10,28 +10,64 @@
     height: max-content;
 
     display: grid;
-    grid-template-columns: 0.1fr 2fr;
+    grid-template-columns: max-content 2fr;
 
     border-radius: 5px;
     overflow: hidden;
 
     margin-bottom: 8px;
+
+    position: relative;
+}
+
+.indicator {
+    display: flex;
+    font-family: 'Space Mono';
+    font-weight: 600;
+}
+
+.indicator > p {
+    padding: 6px;
+    align-self: center;
+    transform: rotate(-90deg);
 }
 
 .assignment {
     background: #59EEE5;
+    color: #068B83;
+}
+
+.assignment > p:hover::after{
+    content: 'SG';
 }
 
 .experiment {
     background: #59B0EE;
+    color: #0975C3;
+}
+
+.experiment > p:hover::after{
+    content: 'XP';
 }
 
 .quiz {
     background: #C5E56A;
+    color: #77A000;
+    font-size: 15px;
+    padding: 0;
+}
+
+.quiz > p:hover::after{
+    content: 'UIZ';
 }
 
 .other {
     background: #DD81FD;
+    color: #B327E3;
+}
+
+.other > p:hover::after{
+    content: 'THER';
 }
 
 .details {
@@ -39,8 +75,6 @@
 
     font-family: "Inter";
     color: white;
-
-    margin-left: 1rem;
 }
 
 .title {
