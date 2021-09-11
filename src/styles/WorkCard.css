@@ -29,7 +29,6 @@
 .indicator > p {
     padding: 6px;
     align-self: center;
-    transform: rotate(-90deg);
 }
 
 .assignment {
