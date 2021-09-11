@@ -36,6 +36,7 @@ const App = () => {
         <a
           class="gh-repo"
           target="_blank"
+          rel="noreferrer"
           href="https://github.com/grewscant/synement"
         >
           synement
