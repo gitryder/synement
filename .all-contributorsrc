@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "ganm0r",
+      "name": "Gandharv More",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66680493?v=4",
+      "profile": "https://github.com/ganm0r",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "synement",
+  "projectOwner": "grewscant",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
