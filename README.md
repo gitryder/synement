@@ -32,7 +32,7 @@ This frontend is written in React.js and heavily relies on the [Synement API](ht
 🔧 Reporting Issues/ make Pull request
 ======================================
 - Issues and PRs are welcome!
-- Nothing is perfect. If you see something wrong, consider contributing.
+- Nothing is perfect. If you see something wrong, consider [contributing](#-contribute-to-this-project).
 
 🍀 Getting Started
 ==================
