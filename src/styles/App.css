@@ -1,6 +1,6 @@
 body {
     height: 100%;
-    background: linear-gradient(to bottom, #060A2C , #202c96);
+    background: linear-gradient(to bottom, #060a2c, #202c96);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -33,7 +33,10 @@ body {
     color: white;
 }
 
-a, a:visited, a:hover, a:active {
+a,
+a:visited,
+a:hover,
+a:active {
     color: white;
     text-decoration: none;
 }
@@ -71,7 +74,7 @@ a, a:visited, a:hover, a:active {
 @media screen and (max-width: 490px) {
     .page-title {
         margin-top: 40px;
-        margin-bottom: 10px ;
+        margin-bottom: 10px;
         font-size: 79px;
         font-weight: 500;
     }
@@ -88,7 +91,7 @@ a, a:visited, a:hover, a:active {
 
     .page-title {
         margin-top: 40px;
-        margin-bottom: 10px ;
+        margin-bottom: 10px;
         font-size: 60px;
         font-weight: 500;
     }
@@ -96,7 +99,7 @@ a, a:visited, a:hover, a:active {
     .page-author {
         font-size: 15px;
     }
-    
+
     .wrapper {
         width: 320px;
     }
@@ -126,7 +129,7 @@ a, a:visited, a:hover, a:active {
 
     .page-title {
         margin-top: 40px;
-        margin-bottom: 10px ;
+        margin-bottom: 10px;
         font-size: 55px;
         font-weight: 500;
     }
@@ -134,7 +137,7 @@ a, a:visited, a:hover, a:active {
     .page-author {
         font-size: 14px;
     }
-    
+
     .wrapper {
         width: 300px;
     }

@@ -7,7 +7,7 @@
     width: 380px;
     height: max-content;
 
-    background-color: #21285F;
+    background-color: #21285f;
 
     border-radius: 15px;
 
@@ -33,7 +33,7 @@
 
     width: max-content;
     color: white;
-    
+
     position: absolute;
     top: 25px;
     left: 20px;
@@ -42,5 +42,4 @@
 .board-list {
     width: 90%;
     margin: 0 auto;
-
 }

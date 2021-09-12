@@ -4,7 +4,7 @@
 }
 
 .wrapper {
-    background: #4D569B;
+    background: #4d569b;
 
     width: 350px;
     height: max-content;
@@ -32,47 +32,47 @@
 }
 
 .assignment {
-    background: #59EEE5;
-    color: #068B83;
+    background: #59eee5;
+    color: #068b83;
 }
 
-.assignment > p:hover::after{
+.assignment > p:hover::after {
     content: 'SG';
 }
 
 .experiment {
-    background: #59B0EE;
-    color: #0975C3;
+    background: #59b0ee;
+    color: #0975c3;
 }
 
-.experiment > p:hover::after{
+.experiment > p:hover::after {
     content: 'XP';
 }
 
 .quiz {
-    background: #C5E56A;
-    color: #77A000;
+    background: #c5e56a;
+    color: #77a000;
     font-size: 15px;
     padding: 0;
 }
 
-.quiz > p:hover::after{
+.quiz > p:hover::after {
     content: 'UIZ';
 }
 
 .other {
-    background: #DD81FD;
-    color: #B327E3;
+    background: #dd81fd;
+    color: #b327e3;
 }
 
-.other > p:hover::after{
+.other > p:hover::after {
     content: 'THER';
 }
 
 .details {
     padding: 15px;
 
-    font-family: "Inter";
+    font-family: 'Inter';
     color: white;
 }
 
