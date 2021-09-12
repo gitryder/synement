@@ -11,11 +11,7 @@ jobs:
 
     - uses: actions/setup-node@v1
       with:
-<<<<<<< Updated upstream
-          node-version: 16
-=======
         node-version: 16
->>>>>>> Stashed changes
 
     - name: Install dependencies
       run: npm ci
