@@ -22,9 +22,14 @@
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
+		"rules": {
+			"semi": ["error", "always"],
+			"quotes": ["error", "single"]
+		},
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+			"eslint:recommended"
     ]
   },
   "browserslist": {
