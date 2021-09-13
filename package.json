@@ -2,7 +2,7 @@
   "name": "synement",
   "version": "0.3.3",
   "private": true,
-  "homepage": "https://syne.danyl.xyz/",
+  "homepage": "https://syne.danyl.xyz",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
