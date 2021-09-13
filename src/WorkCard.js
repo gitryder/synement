@@ -7,7 +7,7 @@ const WorkCard = ({ data }) => {
 
     return (
         <div className="wrapper">
-            <div className={'indicator ' + type.long}>
+            <div className={`indicator ${type.long}`}>
                 <p>{type.short}</p>
             </div>
             <div className="details">
