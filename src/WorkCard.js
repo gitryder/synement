@@ -4,12 +4,11 @@ const WorkCard = ({ data }) => {
     const title = data.subject;
     const subtitle = data.date_due;
     const type = getParsedWorkType(data.type);
-    const indicatorText = getIndicatorText(type);
 
     return (
         <div className="wrapper">
-            <div className={'indicator ' + type}>
-                <p>{indicatorText}</p>
+            <div className={'indicator ' + type.long}>
+                <p>{type.short}</p>
             </div>
             <div className="details">
                 <p className="title">{title}</p>
@@ -22,26 +21,25 @@ const WorkCard = ({ data }) => {
 function getParsedWorkType(type) {
     switch (type) {
         case 'Assignment':
-            return 'assignment';
+            return {
+                long: 'assignment',
+                short: 'A'
+            };
         case 'Experiment':
-            return 'experiment';
+            return {
+                long: 'experiment',
+                short: 'E'
+            };
         case 'Quiz':
-            return 'quiz';
+            return {
+                long: 'quiz',
+                short: 'Q'
+            };
         default:
-            return 'other';
-    }
-}
-
-function getIndicatorText(type) {
-    switch (type) {
-        case 'assignment':
-            return 'A';
-        case 'experiment':
-            return 'E';
-        case 'quiz':
-            return 'Q';
-        default:
-            return 'O';
+            return {
+                long: 'other',
+                short: 'O'
+            };
     }
 }
 
