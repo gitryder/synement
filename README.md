@@ -3,7 +3,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Making tracking my college's assignments a tad bit easier.
 
-![version](https://img.shields.io/badge/version-0.3.3-blue.svg) ![license](https://img.shields.io/badge/license-MIT-red.svg) ![GitHub issues](https://img.shields.io/github/issues/grewscant/synement) <a href="https://www.tailwind-kit.com/" target="_blank">[![Linter](https://github.com/grewscant/synement/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+![version](https://img.shields.io/badge/version-0.3.3-blue.svg) ![license](https://img.shields.io/badge/license-MIT-red.svg) ![GitHub issues](https://img.shields.io/github/issues/grewscant/synement) [![Linter](https://github.com/grewscant/synement/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/gitryder/synement/edit/master/README.md)
 
 
 ![synement](https://user-images.githubusercontent.com/82237314/132957337-c9cfaabb-de75-408d-9bcb-281ecdf61cde.png)
