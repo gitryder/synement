@@ -36,6 +36,10 @@
     color: #068b83;
 }
 
+.assignment > p::before {
+    content: 'A';
+}
+
 .assignment > p:hover::after {
     content: 'SG';
 }
@@ -43,6 +47,10 @@
 .experiment {
     background: #59b0ee;
     color: #0975c3;
+}
+
+.experiment > p::before {
+    content: 'E';
 }
 
 .experiment > p:hover::after {
@@ -56,6 +64,10 @@
     padding: 0;
 }
 
+.quiz > p::before {
+    content: 'Q';
+}
+
 .quiz > p:hover::after {
     content: 'UIZ';
 }
@@ -63,6 +75,10 @@
 .other {
     background: #dd81fd;
     color: #b327e3;
+}
+
+.other > p::before {
+    content: 'O';
 }
 
 .other > p:hover::after {
