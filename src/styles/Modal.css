@@ -12,6 +12,8 @@
     color: white;
     min-width: 310px;
     max-width: 450px;
+    max-height: 500px;
+    overflow: scroll;
     border-radius: 8px;
     background-color: #21285f;
     position: fixed;
