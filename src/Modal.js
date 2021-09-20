@@ -14,8 +14,7 @@ const Modal = ({ data, isOpen, onClose }) => {
                     <button
                         className="modal-close-btn"
                         id="modal-close-btn"
-                        onClick={onClose}
-                    >
+                        onClick={onClose}>
                         &times;
                     </button>
                 </div>

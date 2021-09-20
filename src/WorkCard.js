@@ -1,6 +1,6 @@
 import './styles/WorkCard.css';
 
-const WorkCard = ({ data, onCardClick, showSubtitle}) => {
+const WorkCard = ({ data, onCardClick, showSubtitle }) => {
     const title = data.subject;
     const subtitle = data.date_due;
     const type = getParsedWorkType(data.type);
