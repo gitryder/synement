@@ -1,0 +1,48 @@
+body {
+    height: 100vh;
+}
+
+hr {
+    margin: 22px auto;
+    width: 60%;
+}
+
+.setting-btn {
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 100px;
+    background: none;
+    font-family: 'Inter';
+    font-size: 30px;
+    color: white;
+}
+
+.setting {
+    min-width: 320px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type='radio'] {
+    display: none;
+    z-index: -1;
+}
+
+input:checked + label {
+    border-radius: 100px;
+    border: 2px solid #6998F2;
+    color: white;
+}
+
+label {
+    padding: 20px;
+    border-radius: 100px;
+    font-family: 'Inter';
+    font-size: 30px;
+    color: white;
+}
+label:hover {
+    border-radius: 100px;
+    border: 2px solid #6998F2;
+    color: white;
+}
