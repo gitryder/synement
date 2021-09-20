@@ -53,7 +53,12 @@ const App = () => {
                     date={tomorrow}
                     workData={tomorrowWorkData}
                 />
-                <Board name="Coming up" date="Next" workData={afterWorkData} />
+                <Board
+                    name="Coming up"
+                    date="Next"
+                    workData={afterWorkData}
+                    showDateOnCards
+                />
             </div>
         </div>
     );
