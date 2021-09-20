@@ -1,4 +1,5 @@
 import './styles/Modal.css';
+import {getAbbreviation} from './utils';
 
 const Modal = ({ data, isOpen, onClose }) => {
     if (!isOpen) return null;
@@ -7,7 +8,7 @@ const Modal = ({ data, isOpen, onClose }) => {
             <div className="overlay"></div>
             <div className="modal">
                 <div className="modal-header">
-                    <p className="modal-title">{data.date_due}</p>
+                    <p className="modal-title">{getAbbreviation(data.subject)}</p>
                     <button
                         className="modal-close-btn"
                         id="modal-close-btn"
