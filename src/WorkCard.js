@@ -1,12 +1,12 @@
 import './styles/WorkCard.css';
 
-const WorkCard = ({ data }) => {
+const WorkCard = ({ data, onCardClick }) => {
     const title = data.subject;
     const subtitle = data.date_due;
     const type = getParsedWorkType(data.type);
 
     return (
-        <div className="wrapper">
+        <div className="wrapper" onClick={onCardClick}>
             <div className={`indicator ${type.long}`}>
                 <p>{type.short}</p>
             </div>
