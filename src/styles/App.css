@@ -1,8 +1,7 @@
 body {
-    height: 100%;
     background: linear-gradient(to bottom, #060a2c, #202c96);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 .main-app-container {
