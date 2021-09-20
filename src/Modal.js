@@ -16,12 +16,16 @@ const Modal = ({ data, isOpen, onClose }) => {
                     </button>
                 </div>
                 <div class="modal-body">
-                    <strong>Title: </strong> {data.subject}
+                    <strong>Type:</strong>
+                    <p>{data.type}</p>
                     <br />
-                    <strong>Type:</strong> {data.id}
+
+                    <strong>Title: </strong>
+                    <p>{data.title}</p>
                     <br />
+
                     <strong>Description:</strong>
-                    <p>{data.date_due}</p>
+                    <p>{data.desc}</p>
                     <br />
                 </div>
             </div>
