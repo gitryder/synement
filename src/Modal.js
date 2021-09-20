@@ -11,18 +11,15 @@ const Modal = ({ data, isOpen, onClose }) => {
                     <button
                         className="modal-close-btn"
                         id="modal-close-btn"
-                        onClick={onClose}
-                    >
+                        onClick={onClose}>
                         &times;
                     </button>
                 </div>
                 <div class="modal-body">
                     <strong>Title: </strong> {data.subject}
                     <br />
-
                     <strong>Type:</strong> {data.id}
                     <br />
-                    
                     <strong>Description:</strong>
                     <p>{data.date_due}</p>
                     <br />
