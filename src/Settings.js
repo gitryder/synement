@@ -13,7 +13,7 @@ const Settings = () => {
 
     return (
         <div className="main-app-container">
-            <h1 className="page-title">settings</h1>
+            <h1 className="settings-page-title">settings</h1>
             <hr />
 
             <div className="all-settings-container">
