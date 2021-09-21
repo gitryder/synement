@@ -1,7 +1,5 @@
 body {
-    background: linear-gradient(to bottom, #060a2c, #202c96);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #060a2c;
 }
 
 .main-app-container {
@@ -23,13 +21,23 @@ body {
     width: max-content;
     height: max-content;
 
-    margin-top: 50px;
-
     font-family: 'Space Mono';
     font-size: 100px;
     font-weight: 400;
 
     color: white;
+}
+
+.nav {
+    width: 100%;
+    margin-top: 25px;
+    margin-right: 45px;
+    display: flex;
+    justify-content: right;
+}
+
+.settings-icon {
+    width: 38px;
 }
 
 a,
@@ -68,6 +76,10 @@ a:active {
     .page-author {
         font-size: 18px;
     }
+
+    .settings-icon {
+        width: 38px;
+    }
 }
 
 @media screen and (max-width: 490px) {
@@ -81,6 +93,10 @@ a:active {
     .page-author {
         font-size: 15px;
     }
+
+    .settings-icon {
+        width: 35px;
+    }
 }
 
 @media screen and (max-width: 420px) {
@@ -93,6 +109,10 @@ a:active {
         margin-bottom: 10px;
         font-size: 60px;
         font-weight: 500;
+    }
+
+    .settings-icon {
+        width: 32px;
     }
 
     .page-author {
@@ -131,6 +151,10 @@ a:active {
         margin-bottom: 10px;
         font-size: 55px;
         font-weight: 500;
+    }
+
+    .settings-icon {
+        width: 30px;
     }
 
     .page-author {

@@ -10,6 +10,7 @@
     "ga-4-react": "^0.1.281",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
@@ -22,14 +23,20 @@
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
-		"rules": {
-			"semi": ["error", "always"],
-			"quotes": ["error", "single"]
-		},
+    "rules": {
+      "semi": [
+        "error",
+        "always"
+      ],
+      "quotes": [
+        "error",
+        "single"
+      ]
+    },
     "extends": [
       "react-app",
       "react-app/jest",
-			"eslint:recommended"
+      "eslint:recommended"
     ]
   },
   "browserslist": {

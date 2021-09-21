@@ -1,0 +1,98 @@
+hr {
+    margin: 22px auto;
+    width: 70%;
+    min-width: 280px;
+    border-color: #dbdbdb;
+}
+
+.settings-page-title { 
+    width: max-content;
+    height: max-content;
+    margin-top: 50px;
+    font-family: 'Space Mono';
+    font-size: 70px;
+    font-weight: 400;
+    color: white;
+}
+
+.setting-btn {
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 100px;
+    background: none;
+    font-family: 'Inter';
+    color: white;
+}
+
+.setting {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type='radio'] {
+    display: none;
+    z-index: -1;
+}
+
+input:checked + label {
+    border-radius: 100px;
+    border: 2px solid #6998f2;
+    color: white;
+}
+
+label {
+    padding: 12px;
+    border-radius: 100px;
+    font-family: 'Inter';
+    font-size: 25px;
+    color: white;
+}
+label:hover {
+    border-radius: 100px;
+    border: 2px solid #6998f2;
+    color: white;
+}
+
+@media screen and (max-width: 770px) {
+    .settings-page-title{
+        font-size: 65px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .settings-page-title{
+        font-size: 55px;
+        font-weight: 500;
+    }
+
+    .setting {
+        width: 200px;
+    }
+
+    label {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .settings-page-title{
+        font-size: 45px;
+        font-weight: 500;
+    }
+
+    .setting {
+        width: 200px;
+    }
+
+    label {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .settings-page-title{
+        font-size: 45px;
+        font-weight: 500;
+    }
+}
