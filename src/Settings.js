@@ -25,7 +25,7 @@ const Settings = () => {
                         checked={selectedYear === AY.SE}
                         onClick={() => {
                             setSelectedYear(AY.SE);
-                            PrefProvider.setYearPref(AY);
+                            PrefProvider.setYearPref(AY.SE);
                         }}
                         readOnly
                     />
