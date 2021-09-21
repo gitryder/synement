@@ -18,8 +18,7 @@ const App = () => {
 
     useEffect(() => {
         initPrefs();
-        console.log(localStorage);
-        const urls = getEndpointUrlsByYear();
+        const urls = getEndpointUrlsByYear(PrefProvider.getYearPref());
 
         fetch(urls.today)
             .then(response => response.json())
