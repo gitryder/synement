@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import Board from './Board';
+import { AcademicYear as AY, Endpoints } from './Constants';
+import * as PrefProvider from './PrefProvider';
 import './styles/App.css';
 
 const App = () => {
@@ -13,19 +15,19 @@ const App = () => {
     const [afterWorkData, setAfterWorkData] = useState([]);
 
     useEffect(() => {
-        const TODAY_URL = 'https://synement.herokuapp.com/te/today';
-        const TOMORROW_URL = 'https://synement.herokuapp.com/te/tomorrow';
-        const AFTER_URL = 'https://synement.herokuapp.com/te/after';
+        initPrefs();
+        console.log(localStorage);
+        const urls = getEndpointUrlsByYear();
 
-        fetch(TODAY_URL)
+        fetch(urls.today)
             .then(response => response.json())
             .then(data => setTodayWorkData(data));
 
-        fetch(TOMORROW_URL)
+        fetch(urls.tomorrow)
             .then(response => response.json())
             .then(data => setTomorrowWorkData(data));
 
-        fetch(AFTER_URL)
+        fetch(urls.after)
             .then(response => response.json())
             .then(data => setAfterWorkData(sortObjectsByDate(data)));
     }, []);
@@ -70,6 +72,23 @@ function sortObjectsByDate(data) {
             dateB = new Date(b.date_due);
         return dateA - dateB;
     });
+}
+
+function initPrefs() {
+    if (!PrefProvider.getYearPref()) PrefProvider.setYearPref(AY.TE);
+}
+
+function getEndpointUrlsByYear(year) {
+    switch (year) {
+        case AY.SE:
+            return Endpoints.SE;
+        case AY.TE:
+            return Endpoints.TE;
+        case AY.BE:
+            return Endpoints.BE;
+        default:
+            return Endpoints.TE;
+    }
 }
 
 export default App;

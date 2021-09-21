@@ -14,7 +14,7 @@ const Settings = () => {
     return (
         <div className="main-app-container">
             <h1 className="page-title">settings</h1>
-            <hr/>
+            <hr />
 
             <div className="all-settings-container">
                 <div className="setting">

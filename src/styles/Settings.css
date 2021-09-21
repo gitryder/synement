@@ -30,7 +30,7 @@ input[type='radio'] {
 
 input:checked + label {
     border-radius: 100px;
-    border: 2px solid #6998F2;
+    border: 2px solid #6998f2;
     color: white;
 }
 
@@ -43,6 +43,6 @@ label {
 }
 label:hover {
     border-radius: 100px;
-    border: 2px solid #6998F2;
+    border: 2px solid #6998f2;
     color: white;
 }
