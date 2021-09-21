@@ -40,15 +40,6 @@ const App = () => {
                 <Route exact path="/">
                     <div className="main-app-container">
                         <div className="nav">
-                            <h1 className="page-title">
-                                <a
-                                    className="gh-repo"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    href="https://github.com/grewscant/synement">
-                                    synement
-                                </a>
-                            </h1>
                             <Link to="/settings">
                                 <svg
                                     className="settings-icon"
@@ -61,6 +52,15 @@ const App = () => {
                                 </svg>
                             </Link>
                         </div>
+                        <h1 className="page-title">
+                            <a
+                                className="gh-repo"
+                                target="_blank"
+                                rel="noreferrer"
+                                href="https://github.com/grewscant/synement">
+                                synement
+                            </a>
+                        </h1>
                         <p className="page-author">
                             Made with 💖 by Danyl Fernandes
                         </p>
