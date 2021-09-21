@@ -1,9 +1,11 @@
 import { useState, useEffect } from 'react';
+import { useHistory } from 'react-router-dom';
 import * as PrefProvider from './PrefProvider';
 import { AcademicYear as AY } from './Constants';
 import './styles/Settings.css';
 
 const Settings = () => {
+    const history = useHistory();
     const [selectedYear, setSelectedYear] = useState(AY.TE);
 
     useEffect(() => {
@@ -26,6 +28,8 @@ const Settings = () => {
                         onClick={() => {
                             setSelectedYear(AY.SE);
                             PrefProvider.setYearPref(AY.SE);
+                            history.push('/');
+                            window.location.reload();
                         }}
                         readOnly
                     />
@@ -39,6 +43,8 @@ const Settings = () => {
                         onClick={() => {
                             setSelectedYear(AY.TE);
                             PrefProvider.setYearPref(AY.TE);
+                            history.push('/');
+                            window.location.reload();
                         }}
                         readOnly
                     />
@@ -52,6 +58,8 @@ const Settings = () => {
                         onClick={() => {
                             setSelectedYear(AY.BE);
                             PrefProvider.setYearPref(AY.BE);
+                            history.push('/');
+                            window.location.reload();
                         }}
                         readOnly
                     />
