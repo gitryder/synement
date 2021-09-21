@@ -5,7 +5,7 @@ hr {
     border-color: #dbdbdb;
 }
 
-.settings-page-title { 
+.settings-page-title {
     width: max-content;
     height: max-content;
     margin-top: 50px;
@@ -55,13 +55,13 @@ label:hover {
 }
 
 @media screen and (max-width: 770px) {
-    .settings-page-title{
+    .settings-page-title {
         font-size: 65px;
     }
 }
 
 @media screen and (max-width: 490px) {
-    .settings-page-title{
+    .settings-page-title {
         font-size: 55px;
         font-weight: 500;
     }
@@ -76,7 +76,7 @@ label:hover {
 }
 
 @media screen and (max-width: 420px) {
-    .settings-page-title{
+    .settings-page-title {
         font-size: 45px;
         font-weight: 500;
     }
@@ -91,7 +91,7 @@ label:hover {
 }
 
 @media screen and (max-width: 380px) {
-    .settings-page-title{
+    .settings-page-title {
         font-size: 45px;
         font-weight: 500;
     }
