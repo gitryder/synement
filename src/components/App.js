@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import Board from './Board';
 import Settings from './Settings';
-import { AcademicYear as AY, Endpoints } from './Constants';
-import * as PrefProvider from './PrefProvider';
+import { AcademicYear as AY, Endpoints } from '../Constants';
+import * as PrefProvider from '../PrefProvider';
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
 import './styles/App.css';
 

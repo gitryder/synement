@@ -1,5 +1,5 @@
 import './styles/Modal.css';
-import { getAbbreviation } from './utils';
+import { getAbbreviation } from '../Utils';
 
 const Modal = ({ data, isOpen, onClose }) => {
     if (!isOpen) return null;

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import GA4React from 'ga-4-react';
-import App from './App';
+import App from './components/App';
 
 const ga4react = new GA4React('G-MMZFM66Y0X');
 
