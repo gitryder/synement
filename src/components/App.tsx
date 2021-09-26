@@ -1,9 +1,12 @@
 import { useState, useEffect } from 'react';
 import Board from './Board';
 import Settings from './Settings';
-import { AcademicYear as AY, Endpoints } from '../Constants';
+import { Endpoints } from '../Constants';
 import * as PrefProvider from '../PrefProvider';
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
+import { AcademicYear } from '../models/AcademicYear';
+import { Work } from '../models/Work';
+
 import './styles/App.css';
 
 const App = () => {
@@ -12,9 +15,9 @@ const App = () => {
         .toDateString()
         .slice(3, 11);
 
-    const [todayWorkData, setTodayWorkData] = useState([]);
-    const [tomorrowWorkData, setTomorrowWorkData] = useState([]);
-    const [afterWorkData, setAfterWorkData] = useState([]);
+    const [todayWorkData, setTodayWorkData] = useState<Work[]>([]);
+    const [tomorrowWorkData, setTomorrowWorkData] = useState<Work[]>([]);
+    const [afterWorkData, setAfterWorkData] = useState<Work[]>([]);
 
     useEffect(() => {
         initPrefs();
@@ -95,25 +98,25 @@ const App = () => {
     );
 };
 
-function sortObjectsByDate(data) {
+function sortObjectsByDate(data: Array<Work>) {
     return data.sort((a, b) => {
         const dateA = new Date(a.date_due),
             dateB = new Date(b.date_due);
-        return dateA - dateB;
+        return +dateA - +dateB;
     });
 }
 
 function initPrefs() {
-    if (!PrefProvider.getYearPref()) PrefProvider.setYearPref(AY.TE);
+    if (!PrefProvider.getYearPref()) PrefProvider.setYearPref(AcademicYear.TE);
 }
 
-function getEndpointUrlsByYear(year) {
+function getEndpointUrlsByYear(year: AcademicYear) {
     switch (year) {
-        case AY.SE:
+        case AcademicYear.SE:
             return Endpoints.SE;
-        case AY.TE:
+        case AcademicYear.TE:
             return Endpoints.TE;
-        case AY.BE:
+        case AcademicYear.BE:
             return Endpoints.BE;
         default:
             return Endpoints.TE;

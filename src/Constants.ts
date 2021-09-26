@@ -1,9 +1,3 @@
-export const AcademicYear = {
-    SE: 'se',
-    TE: 'te',
-    BE: 'be'
-};
-
 export const Endpoints = {
     SE: {
         today: 'https://synement.herokuapp.com/se/today',

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import * as PrefProvider from '../PrefProvider';
-import { AcademicYear as AY } from '../Constants';
+import { AcademicYear as AY } from '../models/AcademicYear';
 import './styles/Settings.css';
 
 const Settings = () => {

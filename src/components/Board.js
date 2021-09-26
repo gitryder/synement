@@ -3,7 +3,7 @@ import WorkCard from './WorkCard';
 import Modal from './Modal';
 import './styles/Board.css';
 
-const Board = ({ name, date, workData, showDateOnCards }) => {
+const Board = ({ name, date, workData, showDateOnCards = false }) => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [modalData, setModelData] = useState({});
 
