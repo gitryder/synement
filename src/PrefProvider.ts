@@ -4,6 +4,6 @@ export function getYearPref() {
     return localStorage.getItem(PREF_ACADEMIC_YEAR);
 }
 
-export function setYearPref(pref) {
+export function setYearPref(pref: string) {
     localStorage.setItem(PREF_ACADEMIC_YEAR, pref);
 }
